@@ -1,6 +1,10 @@
+package show;
+
+import entities.Actor;
+import entities.Director;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class Show {
     private String title;
