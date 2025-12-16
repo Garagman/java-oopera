@@ -53,7 +53,11 @@ public class Show {
         }
         System.out.println("В спектакле \"" + title + "\" играют Актеры:");
         for (Actor actor : listOfActors) {
-            System.out.println("*" + actor.getName() + " " + actor.getSurname() + " (" + actor.getHeight() + " см)");
+            String actorInfo = String.format("* %s %s (%d см)",
+                    actor.getName(),
+                    actor.getSurname(),
+                    actor.getHeight());
+            System.out.println(actorInfo);
         }
     }
 
